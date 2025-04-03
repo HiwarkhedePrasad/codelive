@@ -10,6 +10,8 @@ export default defineConfig({
     port: 3000, // Optional: Choose the port you want to use
     watch: {
       usePolling: true,
-    },
+    },build: {
+    outDir: "dist",
   },
+  base: "/", // Ensures correct base path
 });
