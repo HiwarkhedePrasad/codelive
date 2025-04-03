@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+}
