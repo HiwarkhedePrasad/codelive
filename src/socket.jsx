@@ -9,7 +9,7 @@ export const initSocket = async () => {
   };
 
   // Use the correct Vite environment variable prefix
-  const backendUrl = "http://192.168.251.186:5000";
+  const backendUrl = "https://codeliveserver-3s4k.onrender.com";
 
   if (!backendUrl) {
     console.error("Backend URL is not defined in the environment variables.");
